@@ -89,7 +89,7 @@
 		$(function () {
 
 			$.ajax({
-				url: 'counter.php',
+				url: 'http://www.ruggeromotta.com/letterbolt/counter.php',
 				type: 'get',
 				success: function (data) {
 					var number = pad(data, 6);
@@ -102,7 +102,7 @@
 				e.preventDefault();
 				console.log('bottone');
 				$.ajax({
-					url: 'counter.php',
+					url: 'http://www.ruggeromotta.com/letterbolt/counter.php',
 					type: 'get',
 					success: function (data) {
 						var number = pad(data, 6);
